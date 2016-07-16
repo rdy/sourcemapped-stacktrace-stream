@@ -1,0 +1,17 @@
+module.exports = `Error: Expected false to be true.
+    at stack (http://localhost:8888/:1637:17)
+    at buildExpectationResult (http://localhost:8888/:1607:14)
+    at Spec.expectationResultFactory (http://localhost:8888/:698:18)
+    at Spec.addExpectationResult (http://localhost:8888/:390:34)
+    at Expectation.addExpectationResult (http://localhost:8888/:648:21)
+    at Expectation.toBe (http://localhost:8888/:1561:12)
+    at Object.<anonymous> (http://localhost:8888/spec.js:60:22)
+    at attemptSync (http://localhost:8888/:1946:24)
+    at QueueRunner.run (http://localhost:8888/:1934:9)
+    at QueueRunner.execute (http://localhost:8888/:1919:10)
+    at Spec.queueRunnerFactory (http://localhost:8888/:757:35)
+    at Spec.execute (http://localhost:8888/:419:10)
+    at Object.fn (http://localhost:8888/:2539:37)
+    at attemptAsync (http://localhost:8888/:1976:24)
+    at QueueRunner.run (http://localhost:8888/:1931:9)
+    at QueueRunner.execute (http://localhost:8888/:1919:10)`;
