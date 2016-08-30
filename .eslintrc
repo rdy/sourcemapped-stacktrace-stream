@@ -1,5 +1,6 @@
 {
   "env": {
+    "browser": true,
     "es6": true,
     "node": true,
     "jasmine": true
@@ -15,7 +16,7 @@
     "block-scoped-var": 2,
     "camelcase": 0,
     "complexity": 2,
-    "consistent-return": 2,
+    "consistent-return": 0,
     "curly": 0,
     "default-case": 2,
     "dot-notation": 2,
@@ -27,7 +28,6 @@
     "no-caller": 2,
     "no-div-regex": 2,
     "no-else-return": 2,
-    "no-empty-label": 2,
     "no-eq-null": 2,
     "no-eval": 2,
     "no-extend-native": 2,
@@ -54,7 +54,7 @@
     "no-return-assign": 2,
     "no-script-url": 2,
     "no-self-compare": 2,
-    "no-sequences": 2,
+    "no-sequences": 0,
     "no-shadow": 0,
     "no-undef": 2,
     "no-underscore-dangle": 0,
